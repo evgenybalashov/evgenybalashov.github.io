@@ -1,0 +1,22 @@
+.header{
+	background-color: green;
+	height: 50px;
+	position: fixed;
+	width: 100%;
+	opacity: 0.4
+
+}
+p{
+	margin-top: 50px;
+}
+.example{
+	background-color: red;
+	width: 400px;
+	height: 100px;
+	position: fixed;
+	left: 50%;
+	margin-left: -200px;
+	margin-top: 300px;
+	opacity: 0.9;
+	padding: 15px 20px 10px;
+}
