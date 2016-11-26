@@ -19,8 +19,72 @@
     <![endif]-->
   </head>
   <body>
-    <h1 class="text-center">Hello, world!</h1>
-    <h2 class="text-center">Hello, world!</h2>
+  	<!-- Сверстать ряд, в котором 6 иконок. Отображаться они должны с следующем виде: 
+	а) на самых маленьких мониторах в ряд по 1 иконке 
+	б) на маленьких мониторах в ряд по 2 иконки 
+	в) на средних мониторах в ряд по 3 иконки 
+	г) на больших мониторах в ряд по 6 колонок 
+	в колонке все выровнять по центру 
+	-->
+	<section id="main">
+		<div class="container">
+			<div class="row main_heder text-center">
+				<h1>Спасибо за урок!</h1>
+			</div>
+		</div>
+	</section>
+	<section id="icons">
+		<div class="container">
+			<div class="row text-center">
+				<div class="col-lg-2 col-md-4 col-sm-6">
+					<img src="img/learning.png" alt="">
+				</div>
+				<div class="col-lg-2 col-md-4 col-sm-6">
+					<img src="img/studying.png" alt="">
+				</div>
+				<div class="col-lg-2 col-md-4 col-sm-6">
+					<img src="img/sleepy.png" alt="">
+				</div>
+				<div class="col-lg-2 col-md-4 col-sm-6">
+					<img src="img/learning.png" alt="">
+				</div>
+				<div class="col-lg-2 col-md-4 col-sm-6">
+					<img src="img/studying.png" alt="">
+				</div>
+				<div class="col-lg-2 col-md-4 col-sm-6">
+					<img src="img/sleepy.png" alt="">
+				</div>
+			</div>
+		</div>
+	</section>
+	<!--
+	- Сверстать элемент, высотой 100px с рамкой в 2px цветом #000. Элемент должен занимать 8 колонок 
+	Внутри этого элемента расположить 4 элемента с высотой 50px и сплошным фоном зеленого цвета. Элементы должны занимать одинаковую ширину (количество колонок).-->
+	<section id="nesting">
+		<div class="container">
+			<div class="row Level1">
+				<div class="box col-lg-8 col-lg-offset-4">
+				<div class="row Level2">
+					<div class="box_in col-lg-3 col-xs-3"> 
+						
+					</div>
+					<div class="box_in col-lg-3 col-xs-3">
+						
+					</div>
+					<div class="box_in col-lg-3 col-xs-3">
+						
+					</div>
+					<div class="box_in col-lg-3 col-xs-3">
+						
+					</div>
+				</div>
+				</div>
+				
+			</div>
+		</div>
+	</section>
+
+
 
     <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
